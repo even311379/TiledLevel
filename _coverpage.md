@@ -1,12 +1,13 @@
 <!-- _coverpage.md -->
 
-# docsify <small>3.5</small>
+# Tiled Level <small>v1.0</small>
 
-> A magical documentation site generator.
+> A ue4 plugin that allows you paint tiled asset directly.
 
 - Simple and lightweight
 - No statically built html files
 - Multiple themes
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[Marketplace](https://github.com/docsifyjs/docsify/)
+[Discord] (????)
 [Get Started](#docsify)
