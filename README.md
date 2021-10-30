@@ -1,17 +1,3 @@
-# Welcome to Docsify Page!
+# my doc site 
 
-Can I modify things here??
-
-Why my side bar just not displayed...
-
-hjkhj
-
-
-54321
-
-
-```python
-print("hello")
-```
-
-# is code displayed!>?
+## Based on docsify and use github page to deploy!

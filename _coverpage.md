@@ -1,5 +1,7 @@
 <!-- _coverpage.md -->
 
+![logo](_media/banner.svg)
+
 # Tiled Level <small>v1.0</small>
 
 > A ue4 plugin that allows you paint tiled asset directly.
@@ -9,5 +11,5 @@
 - Multiple themes
 
 [Marketplace](https://github.com/docsifyjs/docsify/)
-[Discord] (????)
+[Discord] (https://google.com)
 [Get Started](#docsify)
