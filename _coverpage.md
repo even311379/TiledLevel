@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/banner.svg)
+![logo](_media/logo.svg)
 
 # Tiled Level <small>v1.0</small>
 
@@ -11,5 +11,5 @@
 - Multiple themes
 
 [Marketplace](https://github.com/docsifyjs/docsify/)
-[Discord] (https://google.com)
-[Get Started](#docsify)
+[Discord](https://google.com)
+[Get Started](#index)
