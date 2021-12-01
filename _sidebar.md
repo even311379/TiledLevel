@@ -3,9 +3,10 @@
 
 * [Quick Start](./QuickStart)
 * Guide
-  * [Installation](./Guide/Installation)
-  * [Setup Item Set](./Guide/SetupItemSet)
-  * [Tiled Level Asset](./Guide/TiledLevelAsset)
+  * [Setup your item set](./Guide/SetupItemSet)
+  * [Paint tiled level asset](./Guide/TiledLevelAsset)
+  * [Paint level editor](./Guide/OnLevelEditor)
+  * [Break tile](./Guide/Break)
+
 * [Patch Notes](./PatchNotes)
-* [Roadmap and Issues](./RoadmapAndIssues)
 
