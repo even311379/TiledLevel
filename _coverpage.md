@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<!-- ![logo](Media/Banner.svg) -->
+[logo](_media/logo.png)
 
 # Tiled Level <small>v1.0</small>
 
