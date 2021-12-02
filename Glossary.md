@@ -23,5 +23,5 @@ For the ease of communication, I define the following stuff this way, hope its i
 
 ### Source Type
 
-### Structure Type
-
+##### Wall
+A wall 

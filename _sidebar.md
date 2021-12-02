@@ -1,5 +1,5 @@
 
-* [HOME](./)
+* [HOME](/)
 
 * [Quick Start](./QuickStart)
 
