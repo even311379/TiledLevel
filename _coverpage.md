@@ -7,6 +7,6 @@
 > A ue4 plugin that allows you paint modular asset directly.
 
 [Marketplace](https://github.com/docsifyjs/docsify/)
-[Get Started](#index)
+[Get Started](#what-it-is)
 
 <!-- [Discord](https://google.com) -->
