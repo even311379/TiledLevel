@@ -5,7 +5,7 @@
 * Guide
   * [Setup your item set](./Guide/SetupItemSet)
   * [Paint tiled level asset](./Guide/TiledLevelAsset)
-  * [Paint level editor](./Guide/OnLevelEditor)
+  * [In level editing](./Guide/InLevelEditing)
   * [Break tile](./Guide/Break)
 
 * [Patch Notes](./PatchNotes)
