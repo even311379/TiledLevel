@@ -9,7 +9,7 @@
   * [In level editing](./Guide/InLevelEditing)
   * [Break tile](./Guide/Break)
 
-* [Glossary] (./Glossary.md)
+* [Glossary](./Glossary.md)
 
 * [Patch Notes](./PatchNotes)
 
