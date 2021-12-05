@@ -1,11 +1,14 @@
+
+
 # What it is
 
-Tiled level plugin is 
+ Tiled level plugin is a level design tool that allows you to paint modular assets directly. Setup tiled item set from your static mesh or actor, and you are ready to paint these 3D assets like a 2D tile map. Makes level design from modular assets way easier and intuitive and prototypes your design idea way faster.
 
-<iframe width="560" height="600" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rng6oH15u3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ Watch the short trailer video for what it is for. 
 
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+---
+Here wiil be a image and  link to my demo / trailer video
+---
 
 ## When To Use
 * Assembling modular asset
@@ -13,8 +16,16 @@ Tiled level plugin is
 * Quick prototying 
 
 # Features
+* Tiled item Set editor to set up, preview, and manage item palette to paint.
+* Both mesh and actor based tiled item are supproted. Mesh items are placed in instaced manner, which is much more efficient.
+* Tiled Level editor to paint your modular assets directly, including paint, erase, eyedropper, mirror, and select tools.
+* Auto snap placement to floor or wall as you like. 
+* Different floors to paint on which can easily move up/down, hide, duplicate, and delete.
+* Can paint on "Tiled Level Editor" or directly on UE4 level editor.
+* Break tiled asset to convert them to separate static meshes and actors for detail fine-tuning each placement.
 
+Getting started with:
 
+> [Quick Start](/QuickStart.md)
 
-https://user-images.githubusercontent.com/7351364/144373371-e689eb39-10b8-446f-bcd8-4b0df143278a.mov
-
+> [Sample Project](https://drive.google.com/file/d/1AuOV13Gk-h3n75sz71dKByfkAiL1vTQ2/view?usp=sharing)
