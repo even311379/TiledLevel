@@ -2,11 +2,10 @@
 # Patch Note
 
 ### V1.0
-- First Release
+- First Release  Happy Happy
 
 ### V1.1 Coming Soon....
 - Fill Tool
 - Different brush step size
-
-
-sss
+- optimize some workflow?
+- Bugs fixing?

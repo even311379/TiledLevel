@@ -1,4 +1,4 @@
-# Glossary (Still Under construction)
+# Glossary
 
 For the ease of communication, I define the following stuff this way, hope its intuitive to understand~
 
@@ -26,7 +26,10 @@ How an item expand
 
 ### Placed Type
 
+
 ### Source Type
 
 ##### Wall
-A wall 
+A wall
+
+
