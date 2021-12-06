@@ -1,13 +1,14 @@
 
 * [HOME](/)
 
-* [Quick Start](./QuickStart)
+* Quick Start
+  * [Block Sample](./QuickStart/BlockSample)
+  * [House Sample](./QuickStart/HouseSample)
 
 * Guide  
-  * [Setup your item set](./Guide/SetupItemSet)
-  * [Paint tiled level](./Guide/TiledLevelAsset)
-  * [Edit in map](./Guide/InLevelEditing)
-  * [Break tile](./Guide/Break)
+  * [Tiled Item Set](./Guide/TiledItemSet)
+  * [Tiled Level Edit Tools](./Guide/TiledLevelEditTools)
+  * [Work Flow](./Guide/WorkFlow)
 
 * [Glossary](./Glossary.md)
 

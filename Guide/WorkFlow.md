@@ -1,3 +1,6 @@
+## Edit in map
+
+
 # Break Tiled level
 
 It not easy to fine-tune the transformation of each tiled item placement, however, I provide you a simple click to break the tiles, i.e. convert tiled level to separated static mesh or actor.
