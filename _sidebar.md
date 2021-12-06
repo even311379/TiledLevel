@@ -1,6 +1,4 @@
 
-* [HOME](/)
-
 * Quick Start
   * [Block Sample](./QuickStart/BlockSample)
   * [House Sample](./QuickStart/HouseSample)
