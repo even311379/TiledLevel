@@ -56,7 +56,11 @@ Select item "Floor" to paint and square area.
 
 Select "Wall" to paint around floor. Press **Q** or **R** to rotate.
 
-Select "DoorFrame" to paint on one of the wall. Since in 
+![image](../_media/sample.jpeg ':size=200')
+
+Select "DoorFrame" to paint on one of the wall. 
+
+> Since DoorFrame and Wall are all set as "Struture", you can directly paint on existing wall, which would just replace the wall structure at that tile unit to your new item. This setup can save you from delete old placement.  
 
 
-### Drag to you map
+### Drag to you mapS
