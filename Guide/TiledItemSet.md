@@ -1,20 +1,21 @@
 
 # Setup Item Set
 
-Item Set is a place where you register mesh or actor to tiled item, defines your rule to paint each item. 
-
+Item Set is a place where you register meshes or actors to tiled items, defines your rule to paint each item.
 An item set can be used in multiple tiled level as long as the tile size is the same.
 
-<!-- A image with hint to explain each stuff -->
 
-![Tiled Item Set Editor](../_media/ItemSetEditor_temp.png ':size=800')
+Tiled Item Set Editor Layout:
+![Tiled Item Set Editor](../_media/ItemSet.png ':size=800')
 ## 1. Item Set Detail
 
 ### Tile Size
+Tile size is the most important value to set. It depends on how your modular assets are designed.
 
 ### New Item Settings
 
-These value will affect **prediction** for the placed type and extent of new items, save you time to change them latter. Since you may add hundreds of new item at same time, these will save you bunch of time.
+These value will just affect **auto-prediction** for the placed type and extent of new items, save you time to change them latter.
+Since you may add hundreds of new item at the same time, these will save you a bunch of time.
 
 
 ## 2. Tiled Item Palette
@@ -29,13 +30,15 @@ Filter registered items.
 
 Drag mesh / actor from content browser to here will register new items to this item set. 
 
-Select item here to preview how this item placed inside the tiled brush based on its current setting.  
+### Preview and start to setup each item
+
+Select item to preview how this item placed inside the tiled brush based on its current setting.  
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 ### Item Detail
 
-Modify the detail of selected item. 
+Modify the detail of selected item.  One can also select mutiple items to modify.
 
 #### Mesh / Actor
 
@@ -48,10 +51,9 @@ These will make a lot impact on painting, not allowed to change except here.
 [**Placed Type**](Glossary?id=placed-type)  
 [**Structure Type**](Glossary?id=structure-type)  
 
-Make sure you understand the meaning of them. Checkout [Placement Rule](/Guide/PlacementRule) and [Glossary](/Glossary). 
+Make sure you fully understand the meaning of them. Checkout [Placement Rule](/Guide/PlacementRule). 
 
 #### Auto Placement
-Only available in mesh item.  
 Due to the pivot point of each mesh could differ, this will adjust pivot center to geometry center from source mesh.
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
@@ -61,13 +63,20 @@ Due to the pivot point of each mesh could differ, this will adjust pivot center 
 #### Anchor Position
 
 The anchor position of item inside the tile. Different placed type would differ in anchor position options.
+These options includes: center, bottom, corner, side, and fit.
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
-**Fit** option only appear when auto placement is turn on. It will adjust the traslation and scale to fit the actual tile size. You can also override **wall thickness** or **floor height** here.
+**Fit** option only appear when auto placement is turn on. It will adjust the traslation and scale to fit the actual tile size.
+With fit option selected, you can also override **wall thickness** or **floor height**.
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
+#### Auto Snap
+ 
+Turn on snap to floor to make this item stands right above the floor. 
+
+> Auto-placement, auto-snap, and width/height override are only available in **mesh-type** items.
 
 #### Transform Adjustment
 
@@ -89,6 +98,6 @@ Rmove all preview items fixed in viewport.
 
 Preview seleted item for how this 
 
-## 5. Preview Scene Setting
+## 5. Content Browser
 
-Adjust preview scene.
+It's just your normal content browser. For the ease of workflow, I add it here.
