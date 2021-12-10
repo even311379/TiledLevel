@@ -43,4 +43,8 @@ Paint **Block Type** item on **Floor Type** item.
 
 ### Bypass Rules
 These rules above aim to make painting items in the most intuitive manner. However, sometimes these rules are a hindrance to your workflow.  
-You can turn on [**Multi Mode**](Guide/TiledLevelEditTools?id=-multi-mode-m) to bypass the rules. 
+You can turn on [**Multi Mode**](Guide/TiledLevelEditTools?id=-multi-mode-m) to bypass the rules.
+
+
+FIX Multi Mode bug!! Overlapping!!!
+

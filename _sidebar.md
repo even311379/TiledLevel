@@ -1,6 +1,6 @@
 
 * Quick Start
-  * [Block Sample](./QuickStart/BlockSample)
+  * [Land Sample](./QuickStart/LandSample)
   * [House Sample](./QuickStart/HouseSample)
 
 * Guide  

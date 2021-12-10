@@ -4,8 +4,11 @@
 ### V1.0
 - First Release  Happy Happy
 
-### V1.1 Coming Soon....
-- Fill Tool
-- Different brush step size
-- optimize some workflow?
-- Bugs fixing?
+---
+Candiate New Features:
+* Random Instance Item - ex: spawn random amount of flowers with reandom transform in side each tile
+* Rotation in Select mode
+* Random Tool
+* Fill Tool
+* Different brush step size
+
