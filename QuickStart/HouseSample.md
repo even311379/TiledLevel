@@ -3,7 +3,7 @@
 ---
 Make sure tiled level is installed to your engine version. It currently supportes 4.26 and 4.27.
 
-All assets are included in y sample project [TiledLevelDemo](https://drive.google.com/file/d/1AuOV13Gk-h3n75sz71dKByfkAiL1vTQ2/view?usp=sharing). 
+All assets are included in y sample project. 
 
 ---
 
@@ -20,7 +20,7 @@ Create a new item set
 Right click on content browser, under tiled level category, select Tiled Item Set.
 
 Open the new asset
-Set the [**Tile Size**](/Glossary?id=Tile_Size) as 250 x 250 x250. 
+Set the **Tile Size** as 250 x 250 x250. 
 
 > **Tile Size** is very IMPORTANT across all the edit process, may differ based on your asset packs.
 

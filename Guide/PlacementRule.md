@@ -13,7 +13,7 @@ Following the 3 rules stated below to properly set up each tiled item, you can f
 A tile can only contain one **structure** item.  
 When painting a new **structure** item on top of any existing **structure** item, the previous one will be replaced.  
 When it is a **Prop** type item, it will overlay.  
-You must set [**Structure Type**](Glossary?id=structure-type) properly for each tiled item.  
+You must set **Structure Type** properly for each tiled item.  
 
 
 Paint Two structure item
@@ -44,7 +44,4 @@ Paint **Block Type** item on **Floor Type** item.
 ### Bypass Rules
 These rules above aim to make painting items in the most intuitive manner. However, sometimes these rules are a hindrance to your workflow.  
 You can turn on [**Multi Mode**](Guide/TiledLevelEditTools?id=-multi-mode-m) to bypass the rules.
-
-
-FIX Multi Mode bug!! Overlapping!!!
 

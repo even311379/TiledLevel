@@ -14,13 +14,14 @@ Should I create something else? a better pack? Yes!!
 Video tutorial:
  fS 
 
+
+Here are the steps in tutorial video:
+
 ## Setup Item Set
 
 Right Click in content browser to create a new item set.
 
-In Setup:
-
-set size 100 x 100 x 100
+Set tile size 100 x 100 x 100
 
 In new item:
 
@@ -54,6 +55,7 @@ Erase.
 
 Use R, Q rotate. Use Z, C switch between floor.
 Use X to eyedroping 
+
 
 ## re-use this level, convert to asset.
 

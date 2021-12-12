@@ -26,5 +26,6 @@ Here will be an image and link to my demo / trailer video
 
 Getting started with:
 
-> [Quick Start](/QuickStart.md)
+> [Land Sample](/QuickStart/LandSample)  
+> [house Sample](/QuickStart/HouseSample)
 

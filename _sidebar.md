@@ -9,7 +9,5 @@
   * [Tiled Level Edit Tools](./Guide/TiledLevelEditTools)
   * [Work Flow](./Guide/WorkFlow)
 
-* [Glossary](./Glossary.md)
-
 * [Patch Notes](./PatchNotes)
 

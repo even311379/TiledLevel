@@ -10,7 +10,7 @@ Tiled Item Set Editor Layout:
 ## 1. Item Set Detail
 
 ### Tile Size
-Tile size is the most important value to set. It depends on how your modular assets are designed.
+**Tile size** is the most important value to set. It depends on how your modular assets are designed.
 
 ### New Item Settings
 
@@ -24,17 +24,17 @@ Since you may add hundreds of new item at the same time, these will save you a b
 
 Filter registered items.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](../_media/DemoGIF/SearchFilter.gif)
 
 ### Registered items / Drop region
 
 Drag mesh / actor from content browser to here will register new items to this item set. 
 
+![Alt Text](../_media/DemoGIF/Create.gif)
+ 
 ### Preview and start to setup each item
 
 Select item to preview how this item placed inside the tiled brush based on its current setting.  
-
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 ### Item Detail
 
@@ -47,16 +47,21 @@ The source mesh / actor of this item.
 #### Tiled Item
 
 These will make a lot impact on painting, not allowed to change except here.  
-[**Extent**](/Glossary?id=tile-extent)  
-[**Placed Type**](Glossary?id=placed-type)  
-[**Structure Type**](Glossary?id=structure-type)  
+
+- Extent  
+  The number of tiles this item occupied.
+
+- Placed Type  
+  Includeing **block**, **floor**, **wall**, **edge**, **pillar**, and **point**.
+
+- Structure Type  
+  **structure** or **prop**.
+
 
 Make sure you fully understand the meaning of them. Checkout [Placement Rule](/Guide/PlacementRule). 
 
 #### Auto Placement
 Due to the pivot point of each mesh could differ, this will adjust pivot center to geometry center from source mesh.
-
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 > You may not want to turn on when the pivot point of source mesh is carefully designed for specific ends. 
 
@@ -65,18 +70,20 @@ Due to the pivot point of each mesh could differ, this will adjust pivot center 
 The anchor position of item inside the tile. Different placed type would differ in anchor position options.
 These options includes: center, bottom, corner, side, and fit.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](../_media/DemoGIF/AutoPlacement.gif)
 
 **Fit** option only appear when auto placement is turn on. It will adjust the traslation and scale to fit the actual tile size.
 With fit option selected, you can also override **wall thickness** or **floor height**.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](../_media/DemoGIF/Fit.gif)
 
 #### Auto Snap
  
-Turn on snap to floor to make this item stands right above the floor. 
+Turn on snap to floor to make this item stands right above the floor. Snap to wall is only allowed for wall-prop. 
 
-> Auto-placement, auto-snap, and width/height override are only available in **mesh-type** items.
+[Auto Snap Demo](/Guide/TiledLevelEditTools?id=-auto-snap-n)
+
+> Auto-placement and auto-snap are only available in **mesh-type** items.
 
 #### Transform Adjustment
 
@@ -92,12 +99,12 @@ Fix current seleted preview item in preview viewport at given positions around t
 
 Rmove all preview items fixed in viewport.
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](../_media/DemoGIF/Fixed.gif)
 
 ## 4. Preview Scene Viewport
 
-Preview seleted item for how this 
+Preview seleted item. 
 
 ## 5. Content Browser
 
-It's just your normal content browser. For the ease of workflow, I add it here.
+A normal content browser. 
