@@ -76,7 +76,8 @@ Mirror item in paint mode (1: X / 2: Y / 3: Z axis)
 #### ![icon](../_media/icons/EditLower_128x.png ':size=32 :no-zoom' )![icon](../_media/icons/EditUpper_128x.png ':size=32 :no-zoom' ) Edit Upper / Lower (Z/C)
 Move to upper/Lower floor if exist.
 
-[Video Instruction](somewhere to my tutorial)
+[![Cover](../_media/LandTutorVideoCover.png)](https://youtu.be/nKz3ar4LS-8?t=154)
+
 
 #### ![icon](../_media/icons/Multi_128x.png ':size=32 :no-zoom' ) Multi Mode (M)
 Allows you to bypass all placement rules. Just place the item to that position without any replacement operation.
@@ -84,9 +85,8 @@ Allows you to bypass all placement rules. Just place the item to that position w
 #### ![icon](../_media/icons/Snap_128x.png ':size=32 :no-zoom' ) Auto Snap (N)
 You can toggle this button to enable / disable snap mode only when the item is set snap to floor or wall.  
 
-
-
-[Video feature demo](some demo vedio)
+(Short demo video for **Snap** here~   Coming soon)
+<!-- [Video feature demo](some demo vedio) -->
 
 ## 4. Item Set Palette
 

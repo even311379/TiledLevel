@@ -21,6 +21,5 @@ flowchart TD;
 
 You can always return normal level design workflow after using this plugin. By breaking tiled level, it is converted to separated static mesh actors or BP actors which allows you to fine tuning their properties. They are organizd in each floor folders, which enable you to hide specific floors.
 
-Demo Gif
-
+(Short video/gif? for **break** coming soon~)
 
