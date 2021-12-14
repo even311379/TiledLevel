@@ -83,14 +83,21 @@ Move to upper/Lower floor if exist.
 Allows you to bypass all placement rules. Just place the item to that position without any replacement operation.
 
 #### ![icon](../_media/icons/Snap_128x.png ':size=32 :no-zoom' ) Auto Snap (N)
-You can toggle this button to enable / disable snap mode only when the item is set snap to floor or wall.  
+You can toggle this button to enable/disable snap mode (only when the item is set to snap to floor or wall). 
 
-(Short demo video for **Snap** here~   Coming soon)
-<!-- [Video feature demo](some demo vedio) -->
+Snap to floor
+
+![DEMO](../_media/DemoGIF/SnapFloor.gif)
+
+Snap to wall
+
+![DEMO](../_media/DemoGIF/SnapWall.gif)
+
+
 
 ## 4. Item Set Palette
 
-- You change different item set as long as the tile size is the same.
+- You can change different item set as long as the tile size is the same.
 
 - Some tranformation settings of selected item are allowed to set here. Changing settings won't affect those already painted.
 
