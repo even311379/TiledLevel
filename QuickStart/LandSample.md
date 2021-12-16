@@ -9,6 +9,11 @@
 
 ---
 
+The demo assets are located inside plugin content, you should set both display **plugin content** and **engine content** to see it.
+
+Hope you have a fun time with this plugin~
+
+
 (below are text content in this tutorial video)
 
 
