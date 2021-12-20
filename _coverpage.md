@@ -7,7 +7,7 @@
 > A ue4 plugin that allows you paint 3D modular assets.
 
 [Get Started](#what-it-is)
-[Marketplace](https://github.com/docsifyjs/docsify/)
+[Marketplace](https://www.unrealengine.com/marketplace/product/0cfbd8b4dcb34163a72d0f1979df0e60)
 <!-- I am ready for discord -->
 <!-- [Discord](https://discord.gg/PhzfnPEnb3)  -->
 
