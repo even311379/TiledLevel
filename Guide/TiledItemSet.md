@@ -14,7 +14,7 @@ Tiled Item Set Editor Layout:
 
 ### New Item Settings
 
-These value will just affect **auto-prediction** for the placed type and extent of new items, save you time to change them latter.
+These value will just affect **auto-prediction** for the placed type and extent of new items, save your time to change them latter.
 Since you may add hundreds of new item at the same time, these will save you a bunch of time.
 
 
@@ -31,14 +31,17 @@ Filter registered items.
 Drag mesh / actor from content browser to here will register new items to this item set. 
 
 ![Alt Text](../_media/DemoGIF/Create.gif)
- 
+
+> There is no need to inherit some class or add an interface for actor-based items you want to use. However, some required data is inserted in **actor tags**. If your gameplay mechanism requires removing or adding actor tags, it could crash. 
+> For mesh-based items, some required data is stored in **per instance custom data**, which could affect the way to design your material if you use this feature.
+
 ### Preview and start to setup each item
 
 Select item to preview how this item placed inside the tiled brush based on its current setting.  
 
 ### Item Detail
 
-Modify the detail of selected item.  One can also select mutiple items to modify.
+Modify the detail of selected item. Can also select mutiple items to modify.
 
 #### Mesh / Actor
 
@@ -46,7 +49,7 @@ The source mesh / actor of this item.
 
 #### Tiled Item
 
-These will make a lot impact on painting, not allowed to change except here.  
+These will make a lot of impact on the painting process, not allowed to change except here.  
 
 - Extent  
   The number of tiles this item occupied.

@@ -33,7 +33,7 @@ Paint same item on structure item (Floor with size 2X2)
 
 
 ## 3. Separated Placement Space
-Different [**placed type**](Glossary?id=placed-type) items will never interfere with each other. The above 2 rules only work on the same placed type.
+Different **placed type** items will never interfere with each other. The above 2 rules only work on the same placed type.
 
 Paint **Block Type** item on **Floor Type** item.
 
