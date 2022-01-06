@@ -4,7 +4,7 @@
 
 --- 
 
-[![Cover](../_media/LandTutorVideoCover.png)](https://youtu.be/ai1kIieHu6o)
+[![Cover](../_media/HouseTutorVideoCover.png)](https://youtu.be/ai1kIieHu6o)
 
 ---
 ### (The text content in this video) 
