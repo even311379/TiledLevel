@@ -1,79 +1,82 @@
 # House Sample
 
-## Still under construction
+> Learn the how to setup asset pack with all placed type.  
 
+--- 
 
-<!-- besides the landpack, talk more about item setup -->
+[![Cover](../_media/LandTutorVideoCover.png)](https://youtu.be/ai1kIieHu6o)
 
-<!-- make great use of floor system -->
+---
+### (The text content in this video) 
 
-<!-- demo the quick design and play iteration -->
+Hope you like!
 
-<!-- Construct a maze like house. -->
+For intuitively assembling buildings, Tiled Level extends the idea of blocks to different placed types. 
 
+Including **Block**, **Floor**, **Wall**, **Edge**, **Pillar**, and **Point**. 
 
+This tutorial will use the **House Sample pack** to show you how to properly set up a **Tiled Item Set** consisting of different placed types. 
 
+Create a new **Tiled Item Set** and open it to edit. 
 
+Navigate to *TiledLevelContent/DemoHouse/Meshes*.
 
-<!-- --- -->
-<!-- Make sure tiled level is installed to your engine version. It currently supportes 4.26 and 4.27. -->
+Adding new items without proper setup will result in unnecessary one-by-one tuning. 
 
-<!-- All assets are included in y sample project.  -->
+Set tile size to **250 x 250 x 250** and include all placed types.
 
-<!-- --- -->
+This will make the extent and placed type prediction accurate as possible for new mesh-based items. 
 
-<!-- Unlike the block demo, the majority of retangle shaped buildings are composed of these structures:  floor, wall, pillar, and beam. I'll show you what they are. -->
+Now, drag all meshes except *SM_Door* to palette.
 
-<!-- You need "Tiled Item Set" to setup all the modular assets you want to use. -->
-<!-- After "Tiled Item Set" is well prepared, you can just drag it to level or create a reusable asset: "Tiled Level Asset" to paint. -->
+The tile extent and placed type are set with some value close to correct. 
 
+You can tune them afterward. 
 
+Navigate to *TiledLevelContent/DemoHouse/Blueprints*, drag *BP_Door* and *BP_Goal* to palette. 
 
-<!-- ### Setup Item Set -->
+The extent and placed type prediction is not supported on blueprints, you need to manually tune them. 
 
-<!-- Create a new item set -->
-<!-- Right click on content browser, under tiled level category, select Tiled Item Set. -->
+You can drag and blueprint, no need to inherit any class or add some interface. 
 
-<!-- Open the new asset -->
-<!-- Set the **Tile Size** as 250 x 250 x250.  -->
+For example, let's just drag intact *ThirdPersonCharacter* to the palette. 
 
-<!-- > **Tile Size** is very IMPORTANT across all the edit process, may differ based on your asset packs. -->
+Let's check and modify the setting for each item. 
 
-<!-- Check use all placed type, these are just for make setup quicker. You can always change them afterward. -->
-<!-- The prediction threshold is used to adject the auto extent prediction based on your raw mesh bound size. -->
+*SM_RoodTip* should be **Point**. 
 
+*BP_Door* should be **Wall** and **Prop**.
 
-<!-- Drag all meshes in the palette, an additional dialog will pop up and you can quick adject these variables. -->
-<!-- Drag BP Door to pallete, set it as wall prop. -->
+*SM_Glass* should be **Prop**. 
 
-<!-- Make sure all structure type is set as structure, and set window, door BP as prop. -->
+*SM_RoofTileSide* should be **Prop**. 
 
+*SM_RoofTileTop* should be **Edge**. 
 
-<!-- Tile Exent -->
+Set pivot point of *ThirdPersonCharacter* to the **center**. 
 
+*SM_RoofTileOuterCornerTip* is wrongly designed for the purpose of the demo. 
 
-<!-- ### Create Tiled Level -->
-<!-- 1. Drag your item set directly to level. Click edit to start. -->
-<!-- 2. Right click on Item Set and choose create a asset from it, open this new asset. -->
+Turn on **Auto-Placement**. 
 
+Select *SM_RoofTileOutterCorner* and fix it to top-left as reference. 
 
-<!-- ### Edit Tiled Level -->
+Now, set the location under *TransformAdjustment* to **(25, 15, 0)**. 
 
-<!-- Viewport navigation is as the default way.  -->
+Final check, save and close. 
 
-<!-- Choose paint mode. -->
-<!-- Select item "Floor" to paint and square area. -->
-<!-- > You can left click to paint one tile or left drag to paint around.  -->
+Select the item set just created, right-click to **create tiled level**. 
 
-<!-- > Holding **Shift** during paint mode will become quick eraser mode. You can quickly erase the current selected item, while leave others intact. -->
+Start to edit. 
 
-<!-- > Holding **Ctrl** during paint will become stait mode, force your restraint your stroke to only vertical or horizontal direction. -->
+Different placed type items will never interfere with each other. 
 
-<!-- Select "Wall" to paint around floor. Press **Q** or **R** to rotate. -->
+The rest tools are all the same, check my previous video. 
 
-<!-- Select "DoorFrame" to paint on one of the wall.  -->
+Now you can just paint what you like. 
 
-<!-- > Since DoorFrame and Wall are all set as "Struture", you can directly paint on existing wall, which would just replace the wall structure at that tile unit to your new item. This setup can save you from delete old placement.   -->
+Here is a timelapse demo.
 
+That's it!
 
-<!-- ### Drag to you mapS -->
+Hope you enjoy this plugin.

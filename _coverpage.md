@@ -8,7 +8,4 @@
 
 [Get Started](#what-it-is)
 [Marketplace](https://www.unrealengine.com/marketplace/product/0cfbd8b4dcb34163a72d0f1979df0e60)
-<!-- I am ready for discord -->
-<!-- [Discord](https://discord.gg/PhzfnPEnb3)  -->
-
-<!-- [Discord](https://google.com) -->
+[Discord](https://discord.gg/2MPht3cZk3) 
