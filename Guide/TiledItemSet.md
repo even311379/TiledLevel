@@ -17,8 +17,7 @@ Tiled Item Set Editor Layout:
 These value will just affect **auto-prediction** for the placed type and extent of new items, save your time to change them latter.
 Since you may add hundreds of new item at the same time, these will save you a bunch of time.
 
-> Auto prediction throshold 
-> A threshold to determine how to predict the extent based on mesh size and extent size. When this value is 0.5 and tile size is 100x100x100, adding a new mesh item with size 151x149x100 will predict tile extent as 2x1x1.
+> **Auto prediction throshold** <br> A threshold to determine how to predict the extent based on mesh size and extent size. When this value is 0.5 and tile size is 100x100x100, adding a new mesh item with size 151x149x100 will predict tile extent as 2x1x1.
 
 
 ## 2. Tiled Item Palette
