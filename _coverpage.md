@@ -2,7 +2,7 @@
 
 ![logo](_media/logo.png)
 
-# Tiled Level <small>v1.0</small>
+# Tiled Level <small>v1.1</small>
 
 > A ue4 plugin that allows you paint 3D modular assets.
 
