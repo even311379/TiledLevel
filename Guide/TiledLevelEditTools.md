@@ -61,6 +61,12 @@ Set whether allowed to erase for each individual item.
 Make you easier to swich between item to paint. Hover the placement you've painted, and left mouse click to select it to paint.
 
 ---
+
+#### ![icon](../_media/icons/Step_128x.png ':size=32 :no-zoom' )Step Control
+Options to control step size and origin of grid movement when painting. 
+
+> When most of your items are of extent 2x2, you may want to set step size as 2, and set back to step size as 1 only when you need to paint some items with extent 1x1.  
+
 #### ![icon](../_media/icons/ToggleGrid_128x.png ':size=32 :no-zoom' )Grid (Tab)
 Toggle the visibility of bounding area box and floor grid.
 

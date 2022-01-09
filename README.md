@@ -27,5 +27,5 @@
 Getting started with:
 
 > [Land Sample](/QuickStart/LandSample)  
-> [house Sample](/QuickStart/HouseSample)
+> [House Sample](/QuickStart/HouseSample)
 
