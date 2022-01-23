@@ -1,6 +1,14 @@
 
 # Patch Note
 
+### V1.2 (2022.1.23)
+- Add material override for mesh-based item
+- Fix Bug: When activating some other plugins will make ue4 fail to load this plugin.
+- Fix Bug: Deleting item set will crash editor sometimes.
+- Fix Bug: Breaking tiled level will result in wrong transformation if that tiled level is rotated or scaled.
+- Fix Bug: Duplicate tiled level on map will not spawn its attached blueprints until reload the map.
+- Fix Bug: Rotation of paint brush will reset when mouse leave the level viewport.
+
 ### V1.1 (2022.1.10)
 - [**Step Size Control**](Guide/TiledLevelEditTools?id=step-control)
 - Add some missing tooltips.
