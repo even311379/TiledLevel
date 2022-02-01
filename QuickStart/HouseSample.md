@@ -7,7 +7,8 @@
 [![Cover](../_media/HouseTutorVideoCover.png)](https://youtu.be/ai1kIieHu6o)
 
 ---
-### (The text content in this video) 
+
+### (The text content in this video)
 
 Hope you like!
 

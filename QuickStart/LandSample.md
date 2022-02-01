@@ -4,7 +4,6 @@
 
 ----
 
-
 [![Cover](../_media/LandTutorVideoCover.png)](https://youtu.be/nKz3ar4LS-8)
 
 ---
@@ -13,9 +12,7 @@ The demo assets are located inside plugin content, you should set both display *
 
 Hope you have a fun time with this plugin~
 
-
 (below are text content in this tutorial video)
-
 
 ### Set up tiled level item
 
@@ -45,7 +42,6 @@ The others should just remain **bottom**.
 
 If all is well, save this item set and close it.
 
-
 ### Editor Tutorial
 
 Drag **Tiled item set** directly to map.
@@ -53,7 +49,6 @@ Drag **Tiled item set** directly to map.
 Click Edit in detail panel to start.
 
 Change number of X, Y tiles to 15.
-
 
 - Paint
 
@@ -162,4 +157,3 @@ That's it.
 
 A simple tutorial and demo for what tiled level is capable of.
 Hope you it.
-

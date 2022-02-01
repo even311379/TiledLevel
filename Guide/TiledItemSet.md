@@ -1,24 +1,25 @@
-
 # Setup Item Set
 
-Item Set is a place where you register meshes or actors to tiled items, defines your rule to paint each item.
+Item Set is a place where you register meshes or actors to tiled items and defines your rule to paint each item.
 An item set can be used in multiple tiled level as long as the tile size is the same.
 
 
 Tiled Item Set Editor Layout:
 ![Tiled Item Set Editor](../_media/ItemSet.png ':size=800')
+
+
+
 ## 1. Item Set Detail
 
 ### Tile Size
+
 **Tile size** is the most important value to set. It depends on how your modular assets are designed.
 
 ### New Item Settings
 
-These value will just affect **auto-prediction** for the placed type and extent of new items, save your time to change them latter.
-Since you may add hundreds of new item at the same time, these will save you a bunch of time.
+These value will just affect **auto-prediction** for the placed type and extent of new items, save your time to change them latter. Since you may add hundreds of new item at the same time, these will save you a bunch of time.
 
 > **Auto prediction throshold** <br> A threshold to determine how to predict the extent based on mesh size and extent size. When this value is 0.5 and tile size is 100x100x100, adding a new mesh item with size 151x149x100 will predict tile extent as 2x1x1.
-
 
 ## 2. Tiled Item Palette
 
@@ -62,10 +63,10 @@ These will make a lot of impact on the painting process, not allowed to change e
 - Structure Type  
   **structure** or **prop**.
 
-
 Make sure you fully understand the meaning of them. Checkout [Placement Rule](/Guide/PlacementRule). 
 
 #### Auto Placement
+
 Due to the pivot point of each mesh could differ, this will adjust pivot center to geometry center from source mesh.
 
 > You may not want to turn on when the pivot point of source mesh is carefully designed for specific ends. 
@@ -83,7 +84,7 @@ With fit option selected, you can also override **wall thickness** or **floor he
 ![Alt Text](../_media/DemoGIF/Fit.gif)
 
 #### Auto Snap
- 
+
 Turn on snap to floor to make this item stands right above the floor. Snap to wall is only allowed for wall-prop. 
 
 [Auto Snap Demo](/Guide/TiledLevelEditTools?id=-auto-snap-n)
@@ -94,8 +95,8 @@ Turn on snap to floor to make this item stands right above the floor. Snap to wa
 
 If transformation adjustment from auto placement and anchor position does not still position you item in a perfect way, this is the place for final adjustment.
 
-
 ## 3. Editor Toolbar
+
 #### ![icon](../_media/icons/FixItem_128x.png ':size=32 :no-zoom' ) Fix Item
 
 Fix current seleted preview item in preview viewport at given positions around the next selected preview item. May help you setup item properly.
