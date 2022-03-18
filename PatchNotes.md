@@ -3,7 +3,7 @@
 ### V1.3 (2022.3.18)
 
 - Reimplement Selection mode. You can rotate selected tiled item instances.
-- Fix eyedropper bugs
+- Fix eyedropper bugs...
 - Add linux support
 
 ### V1.2 (2022.1.23)
