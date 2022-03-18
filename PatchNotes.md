@@ -1,5 +1,11 @@
 # Patch Note
 
+### V1.3 (2022.3.18)
+
+- Reimplement Selection mode. You can rotate selected tiled item instances.
+- Fix eyedropper bugs
+- Add linux support
+
 ### V1.2 (2022.1.23)
 
 - Add material override for mesh-based item
@@ -13,21 +19,19 @@
 
 - [**Step Size Control**](Guide/TiledLevelEditTools?id=step-control)
 - Add some missing tooltips.
-- UE5.0 is supported. 
-  
-  > So far, I can only provide the source code of this version. If you need it now, send me a screenshot of the purchase receipt (or any other proof), and I'll give you a download link to this version. 
+- UE5.0 is supported.
+
+  > So far, I can only provide the source code of this version. If you need it now, send me a screenshot of the purchase receipt (or any other proof), and I'll give you a download link to this version.
 
 ### V1.0 (2021.12.16)
 
 - First Release  Happy Happy
 
-<!-- - UE5 support -->
-
 ---
 
 Candiate New Features:
 
-* Random Instance Item - ex: spawn random amount of flowers with reandom transform in side each tile
-* Rotation in Select mode
+* Fill Tool (Coming in next update...)
 * Random Tool
-* Fill Tool
+* Runtime support
+* Random Instance Item - ex: spawn random amount of flowers with reandom transform in side each tile
