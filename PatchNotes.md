@@ -1,7 +1,7 @@
 # Patch Note
 
 ### v1.4 (2022.4.12)
-- Add new [**fill tool**](Guide/TiledLevelEditTools?id=fill-tool)
+- Add new [**fill tool**](Guide/TiledLevelEditTools?id=fill)
 - fix selection extent
 - UE5.0 release
 

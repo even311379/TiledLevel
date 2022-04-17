@@ -46,7 +46,7 @@ Delete selected and all its placment.
 
 ### Edit modes
 
-#### ![icon](../_media/icons/SelectTool_128x.png%20':size=32%20:no-zoom')Select (G)
+#### ![icon](../_media/icons/SelectTool_128x.png ':size=32 :no-zoom')Select (G)
 
 **Shift + right mouse drag** to select placements in "active floor" inside the box selection area. With placements selected, you can paste them where you want with **left mouse click** or **shift + right mouse drag** again to select different area. You can switch to select mode in paint mode with **shift + right mouse drag**. 
 
@@ -64,7 +64,7 @@ Select which placed type to erase.
 Set the eraser extent.  
 Set whether allowed to erase for each individual item.  
 
-### |[icon](../_media/icons/FillTool_128x.png ':size=32 :no-zoom' )Fill
+#### ![icon](../_media/icons/FillTool_128x.png ':size=32 :no-zoom' )Fill
 
 Help you fill a specific area by selected items. Either "fill tiles" in specified area or "fill edges" around consecutive tiles. You can also select multiple items to start random fill.
 
