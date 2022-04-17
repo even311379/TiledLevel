@@ -1,5 +1,10 @@
 # Patch Note
 
+### v1.4 (2022.4.12)
+- Add new [**fill tool**](Guide/TiledLevelEditTools?id=fill-tool)
+- fix selection extent
+- UE5.0 release
+
 ### V1.3 (2022.3.18)
 
 - Reimplement Selection mode. You can rotate selected tiled item instances.

@@ -64,6 +64,17 @@ Select which placed type to erase.
 Set the eraser extent.  
 Set whether allowed to erase for each individual item.  
 
+### |[icon](../_media/icons/FillTool_128x.png ':size=32 :no-zoom' )Fill
+
+Help you fill a specific area by selected items. Either "fill tiles" in specified area or "fill edges" around consecutive tiles. You can also select multiple items to start random fill.
+
+> For filling tiles, you can choose either continuous tiles or edges as boundary. You can also add "need ground" condition to further restrict area to fill.
+> Selecting multiple items to fill will randomly choose one to fill in random position inside fill area according to its "fill coefficient".
+> Enabling "overlay" option will fill that item in every possible position inside fill area with probability according to "fill coefficient".
+> You can also insert random gaps with given percentage inside fill area.
+
+[![Cover](../_media/FillToolVideoCover.png)](https://youtu.be/_LPjoP9212g)
+
 #### ![icon](../_media/icons/Eyedropper_128x.png ':size=32 :no-zoom' )Eyedropper (X)
 
 Make you easier to switch between item to paint. Hover the placement you've painted, and left mouse click to select it to paint.
