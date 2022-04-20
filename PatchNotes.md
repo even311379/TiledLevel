@@ -1,6 +1,6 @@
 # Patch Note
 
-## v1.4.1 (2022.4.19)
+### v1.4.1 (2022.4.19)
 - fix wrong z position for preview edges in fill mode
 - fix potential crashes if fill across hidden floors
 - fix potential crashes if erase across hidden floors
