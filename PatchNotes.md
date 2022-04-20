@@ -1,5 +1,12 @@
 # Patch Note
 
+## v1.4.1 (2022.4.19)
+- fix wrong z position for preview edges in fill mode
+- fix potential crashes if fill across hidden floors
+- fix potential crashes if erase across hidden floors
+- update all tool behaviour in hidden floors
+- add hide /unhide all floors option in context menu in floor list widget
+
 ### v1.4 (2022.4.12)
 - Add new [**fill tool**](Guide/TiledLevelEditTools?id=fill)
 - fix selection extent
