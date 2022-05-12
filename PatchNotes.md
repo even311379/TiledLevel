@@ -1,4 +1,14 @@
 # Patch Note
+---
+
+Candiate New Features:
+
+* Runtime support
+* Wave Function Collapse
+
+### v1.5 (2022.5.12)
+- Add new feature: [**Merge**](Guide/WorkFlow?id=merge-tiled-level) (convert tiled asset to static mesh)
+- Remove reset tile size for instanced tiled level actor on map.
 
 ### v1.4.1 (2022.4.19)
 - fix wrong z position for preview edges in fill mode
@@ -39,11 +49,3 @@
 
 - First Release  Happy Happy
 
----
-
-Candiate New Features:
-
-* Fill Tool (Coming in next update...)
-* Random Tool
-* Runtime support
-* Random Instance Item - ex: spawn random amount of flowers with reandom transform in side each tile
