@@ -24,9 +24,9 @@ You can always return normal level design workflow after using this plugin. By b
 ### Merge Tiled level
 
 You can convert tiled level asset to static mesh now!
-There three places where you can execute this command:
-1. Right click on the tiled level asset on content browser.
-2. Right click on the tiled level actor on your map.
+There are three places where you can execute this command:
+1. Right click on the tiled level actor on your map.
+2. Right click on the tiled level asset on content browser.
 3. Click the new toolbar button on tiled level editor.
 
 > LOD and simple collisions will be setup automatically. No worries. <br/>
