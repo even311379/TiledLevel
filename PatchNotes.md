@@ -1,10 +1,30 @@
 # Patch Note
 ---
 
-Candiate New Features:
+Candidate New Features:
 
-* Runtime support
 * Wave Function Collapse
+---
+
+### v2.0.0 (2022.7.23)
+**New features (game time support)**
+- TiledLevelGametimeSystem
+- Bind TiledItemSet with any customizable data table
+- Add special tiled item (restriction item) for game time needs
+<br>[**Quick Start here**](GameTime/QuickStart)
+
+
+**Issues and bugs fixed**
+- Fix crash in fill tool when the number of tiles in X and Y axis is not equal.
+- Fix crash after the source asset (blueprint or static mesh) used for tiled item is forced removed.
+- Fix can not change tile size! (An error introduced in last update.)
+- Fix temporally freeze PIE when start whenever instanced tiled level is on map.
+- Modify: Block adding "controller" or "game mode" as tiled item. (Previously, all actors are allowed to do so, which is not reasonable enough.)
+- Modify: Reduce source code duplication.
+- Modify: Remove warning message: can not find xxx files.
+
+
+
 
 ### v1.5 (2022.5.12)
 - Add new feature: [**Merge**](Guide/WorkFlow?id=merge-tiled-level) (convert tiled asset to static mesh)
@@ -14,7 +34,7 @@ Candiate New Features:
 - fix wrong z position for preview edges in fill mode
 - fix potential crashes if fill across hidden floors
 - fix potential crashes if erase across hidden floors
-- update all tool behaviour in hidden floors
+- update all tool behavior in hidden floors
 - add hide /unhide all floors option in context menu in floor list widget
 
 ### v1.4 (2022.4.12)
@@ -26,7 +46,7 @@ Candiate New Features:
 
 - Reimplement Selection mode. You can rotate selected tiled item instances.
 - Fix eyedropper bugs...
-- Add linux support
+- Add Linux support
 
 ### V1.2 (2022.1.23)
 
