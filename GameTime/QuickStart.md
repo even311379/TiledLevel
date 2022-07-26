@@ -6,8 +6,8 @@ This system contains these features:
 1. Can choose what to build
 2. Show the preview item, and move it in front of the character
 3. Allow play to rotate the preview item
-4. Automatic check if resources is enough to build that item when trying to build.
-5. Automatic calculate resources cost when item is build.
+4. Automatic check if resources are enough to build that item when trying to build.
+5. Automatic calculate resources cost when item is built.
 
 ---
 
@@ -18,7 +18,7 @@ This system contains these features:
 
 <br/><br/>
 ### Project Startup
-Create a new project with third person template.
+Create a new project with the **Third Person** template.
 ![image](../_media/GametimeQuickStart/NewProject.png)
 Activate tiled level plugin, check its version is >= V2.0.0.
 ![image](../_media/GametimeQuickStart/EnablePlugin.png)
@@ -46,7 +46,7 @@ Create a Data Table called **DT_HouseItemInfo** with its row structure as **SHou
 ![image](../_media/GametimeQuickStart/CreateDatatable.png)
  Under **TS_House** set the *custom data table* to **DT_HouseItemInfo** and click *Initialize Data*. 
 ![image](../_media/GametimeQuickStart/BindCustomData.png)
-Now, the linkage between the **TS_House** and **DT_HouseItemInfo** is established with *ItemID* as row name. You can just fill the custom info inside item set and the data will be stored in the data table.
+Now, the linkage between the **TS_House** and **DT_HouseItemInfo** is established with *ItemID* as the row name. You can just fill the custom info inside the item set and the data will be stored in the data table.
 ![image](../_media/GametimeQuickStart/FillCustomData.png)
 ![image](../_media/GametimeQuickStart/DataInDT.png)
 With these setup, you can just query the row data by the *ItemID* everywhere you want. After filling the custom info for each item, the setup at this stage is completed.
@@ -57,7 +57,7 @@ For more information, check out [Event bindings](GameTime/CustomData).
 <br/>
 
 ### Finish build system blueprint
-With custom data properly setup, we can continue to programs in build system blueprint. Inside **BP_BuildSystem** override two functions: **Begin System** and **CanBuildItem**.
+With custom data properly setup, we can continue the rest logic in **BP_BuildSystem**. <br/>Override two functions: **Begin System** and **CanBuildItem**.<br/>
 For **CanBuildItem** create the logic to check whether current resources is enough to build that particular item.
 ![image](../_media/GametimeQuickStart/CanBuildItem.png)
 After **Begin System**, bind a custom event to **OnItemBuilt** to add a simple logic to subtract resource cost for the newly built item.
@@ -65,7 +65,7 @@ After **Begin System**, bind a custom event to **OnItemBuilt** to add a simple l
 For more information, check out [Event bindings](GameTime/Events).   
 
 ### Setup character control
-Open **BP_ThirdPersonCharacter** and create a the following logic.
+Open **BP_ThirdPersonCharacter** and create the following logic.
 Add **Begin Play**, promote table row names from **DT_HouseItemInfo** to a private variable *AvailableItemIDs*.
 ![image](../_media/GametimeQuickStart/GetAvailableIDs.png)
 Add input event **Wheel up** and **Wheel down** to implement how to choose item and activated them. Create a integer variable *SelectedItemIDIndex* and follows the graph below.
@@ -97,5 +97,5 @@ In level blueprint (or anywhere you like) call *Initialize Gametime System* and 
 ### Done!
 Now hit play and have fun!
 
-> Known issues: Packaging this game will fail by current version (2.0.0), it is fixed in developing branch but some other minor issues still exist. I will fix them and submit a thorough fix ASAP.
+> Known issues: Packaging this game will fail by current version (2.0.0)! I've fixed in the developing branch, but some other minor issues still exist. I will submit a thorough fix ASAP.
 

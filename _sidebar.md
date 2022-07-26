@@ -13,11 +13,12 @@
 
 * V2.0 Game time support
   * [Quick Start](./GameTime/QuickStart)
-  * [Custom data binding](./GameTime/CustomData)
   * [Initialization](./GameTime/Initialization)
+  * [Custom data binding](./GameTime/CustomData)
   * [Controls](./GameTime/Controls)
   * [Event bindings](./GameTime/Events)
-  * [Save and load](./GameTime/SaveLoad)
-  * [Using with c++](./GameTime/C++)
+  * [Save & Load](./GameTime/SaveLoad)
+  * [Using with C++](./GameTime/C++)
+  * [Restriction Area](./GameTime/RestrictionArea)
 
 * [Patch Notes](./PatchNotes)
