@@ -24,11 +24,9 @@ There are two nodes handling initialization: *InitializeGametimeSystem* and *Ini
 	If false, the system will only work inside the extent of included existing tiled levels.
 ---	
 - InData<br/>
-	Check out [Save & Load].
+	Check out [Save & Load](Gametime/SaveLoad).
 - Tiled Level Inside Data<br/>
 	If that existing level is already inside data, you should still specify them here.	
-
-> Maybe I should add some info to show you whether the system is initialized properly.
 
 #### Setup Existing levels
 
