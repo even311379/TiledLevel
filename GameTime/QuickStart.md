@@ -50,7 +50,6 @@ Now, the linkage between the **TS_House** and **DT_HouseItemInfo** is establishe
 ![image](../_media/GametimeQuickStart/FillCustomData.png)
 ![image](../_media/GametimeQuickStart/DataInDT.png)
 With these setup, you can just query the row data by the *ItemID* everywhere you want. After filling the custom info for each item, the setup at this stage is completed.
-For more information, check out [Event bindings](GameTime/CustomData).   
 
 > Known crash issue (V2.0.0): Modify the Structure and go back to its associated opened Item Set will crash the editor for now. You should close the Item Set before modify the Struct.
 
@@ -76,7 +75,7 @@ Add input event **R** to rotate preview item.<br/>
 Add input event **Right Mouse Button** to deactivate preview item.
 ![image](../_media/GametimeQuickStart/BuildControls.png)
 Last, you need to let the preview item move along with the character. Add **Tick** and calculate the forward 250 cm to move the preview item.
-![image](../_media/GametimeQuickStart/OnItemBuilt.png)
+![image](../_media/GametimeQuickStart/MovePreviewItem.png)
 Add a pure function (*GetSelectedItemID*) to make access of selected item name easier.
 ![image](../_media/GametimeQuickStart/AssistFunction.png)
 
