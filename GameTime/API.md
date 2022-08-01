@@ -1,7 +1,7 @@
 # Tiled level in Gametime - API
 
 ### Init
-* [InitializeGametimeSystem](Gametime/API/InitializeGametimeSystem)
+* [InitializeGametimeSystem](API/InitializeGametimeSystem)
 * [InitializeGametimeSystemFromData](Gametime/API/InitializeGametimeSystemFromData)
 * [ChangeItemSet](Gametime/API/ChangeItemSet)
 
