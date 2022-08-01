@@ -1,9 +1,8 @@
 # Tiled level in Gametime - API
 
-
 ### Init
 * [InitializeGametimeSystem](Gametime/API/InitializeGametimeSystem)
-* [InitializeGametimeSystemWithData](Gametime/API/InitializeGametimeSystemWithData)
+* [InitializeGametimeSystemFromData](Gametime/API/InitializeGametimeSystemFromData)
 * [ChangeItemSet](Gametime/API/ChangeItemSet)
 
 ### Preview
@@ -14,15 +13,16 @@
 * [MovePreviewItemToScreenPositiion](Gametime/API/MovePreviewItemToScreenPositiion)
 * [MovePreviewItemToCursor](Gametime/API/MovePreviewItemToCursor)
 * [RotatePreviewItem](Gametime/API/RotatePreviewItem)
-* [OnLeaveSystemBoundary](Gametime/API/OnLeaveSystemBoundary)
+
 ### Build
 * [CanBuildItem](Gametime/API/CanBuildItem)
 * [BuildItem](Gametime/API/BuildItem)
+
 ### Remove
-* [RemoveItem_LineTrace](Gametime/API/RemoveItem_LineTrace)
+* [CanRemoveItem](Gametime/API/CanRemoveItem)
+* [RemoveItem_LineTraceSingle](Gametime/API/RemoveItem_LineTraceSingle)
 * [RemoveItem_FromHit](Gametime/API/RemoveItem_FromHit)
 * [RemoveItem_UnderCursor](Gametime/API/RemoveItem_UnderCursor)
-* [CanRemoveItem](Gametime/API/CanRemoveItem)
 * [ActivateEraserMode](Gametime/API/ActivateEraserMode)
 * [MoveEraserToWorldPosition](Gametime/API/MoveEraserToWorldPosition)
 * [MoveEraserToScreenPosition](Gametime/API/MoveEraserToScreenPosition)
@@ -30,13 +30,17 @@
 * [RotateEraser](Gametime/API/RotateEraser)
 * [EraseItem](Gametime/API/EraseItem)
 * [DeactivateEraserMode](Gametime/API/DeactivateEraserMode)
+
 ### Utility 
 * [QueryItemByUID](Gametime/API/QueryItemByUID)
 * [GetActivePreviewItem](Gametime/API/GetActivePreviewItem)
 * [FocusFloor](Gametime/API/FocusFloor)
-* [UnfocusFloor](Gametime/API/FocusFloor)
-* [HasAnyFocusedFloor](Gametime/API/FocusFloor)
+* [UnfocusFloor](Gametime/API/UnfocusFloor)
+* [HasAnyFocusedFloor](Gametime/API/HasAnyFocusedFloor)
+
 ### Event 
+* [OnBeginSystem](Gametime/API/OnBeginSystem)
+* [OnLeaveSystemBoundary](Gametime/API/OnLeaveSystemBoundary)
 * [OnItemBuilt](Gametime/API/OnItemBuilt)
 * [OnItemRemoved](Gametime/API/OnItemRemoved)
 * [OnItemFailToBuilt](Gametime/API/OnItemFailToBuilt)

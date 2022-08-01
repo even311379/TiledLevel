@@ -23,16 +23,19 @@
   <script>
     window.$docsify = {
       el: "#app",
-      basePath: 'https://raw.githubusercontent.com/even311379/TiledLevel/main/', // Local dev.. not need this to get quick preview
+      // basePath: 'https://raw.githubusercontent.com/even311379/TiledLevel/main/', // Local dev.. not need this to get quick preview
       loadSidebar: true,
       loadFooter: true,  
       coverpage: true,
+      maxLevel: 3,
       name: 'TiledLevel',
       search: 'auto',
       search: [
           'https://raw.githubusercontent.com/even311379/TiledLevel/main/',
           'https://raw.githubusercontent.com/even311379/TiledLevel/main/QuickStart/',
-          'https://raw.githubusercontent.com/even311379/TiledLevel/main/Guide/'
+          'https://raw.githubusercontent.com/even311379/TiledLevel/main/Guide/',
+          'https://raw.githubusercontent.com/even311379/TiledLevel/main/Gametime/',
+          'https://raw.githubusercontent.com/even311379/TiledLevel/main/GametimeAPI/',
       ]
     }
   </script>
@@ -53,16 +56,31 @@
     });
   </script>  
   <style>
+    table {
+      width: 100%;
+      display: inline-table !important;
+    }
+    table td {
+      vertical-align: top;
+    }
+    table td:first-of-type {
+      font-weight: 600;
+    }
+    table td:nth-of-type(2) {
+      font-size: 80%;
+      font-style: italic;
+    }
     table th:first-of-type {
         width: 20%;
     }
     table th:nth-of-type(2) {
         width: 20%;
-        
     }
     table th:nth-of-type(3) {
-        width: 80%;
+        width: 60%;
     }
+}
+
   </style>
 </body>
 </html>
