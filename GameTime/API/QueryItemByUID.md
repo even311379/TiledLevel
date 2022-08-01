@@ -3,7 +3,7 @@
 
 Search the tiled item object reference inside current **item set** by matched UID.
 
-<img src="../../_media/GametimeAPI/QueryItemByUID.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/QueryItemByUID.png" alt="drawing" width="50%"/>
 
 ### > Input
 |             |         |       |

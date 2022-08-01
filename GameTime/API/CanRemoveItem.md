@@ -5,8 +5,8 @@
 
 Final check for if you are allowed to remove particular item. Overrride it to meet your need.
 
-<img src="../../_media/GametimeAPI/CanRemoveItem_01.png" alt="drawing" width="50%"/>
-<img src="../../_media/GametimeAPI/CanRemoveItem_02.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/CanRemoveItem_01.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/CanRemoveItem_02.png" alt="drawing" width="50%"/>
 
 ### > Input
 |             |         |       |

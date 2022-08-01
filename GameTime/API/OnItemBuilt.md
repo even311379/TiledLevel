@@ -5,7 +5,7 @@
 
 Triggered after item is built. You can bind custom events anywhere, ex: calculate resource cost, spawn particle, or play sound. 
 
-<img src="../../_media/GametimeAPI/OnItemBuilt.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/OnItemBuilt.png" alt="drawing" width="50%"/>
 
 
 ### > Inputs for binding

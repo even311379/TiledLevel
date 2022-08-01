@@ -3,7 +3,7 @@
 
 Hide all placements in other floors, make you focus on this floor only.
 
-<img src="../../_media/GametimeAPI/FocusFloor.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/FocusFloor.png" alt="drawing" width="50%"/>
 
 ### > Input
 |             |         |       |

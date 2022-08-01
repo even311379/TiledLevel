@@ -3,7 +3,7 @@
 
 Is focused on any floor?
 
-<img src="../../_media/GametimeAPI/HasAnyFocusedFloor.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/HasAnyFocusedFloor.png" alt="drawing" width="50%"/>
 
 ### > Input
 

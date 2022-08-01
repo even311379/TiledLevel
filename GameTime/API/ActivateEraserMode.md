@@ -5,7 +5,7 @@ Activate the eraser in gametime. You can not specified which items are excluded 
 
 > (V2.0.1) The CanRemoveItem has no effect on eraser now. This will be fixed in next update!
 
-<img src="../../_media/GametimeAPI/ActivateEraserMode.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/ActivateEraserMode.png" alt="drawing" width="50%"/>
 
 ### > Input
 |             |         |       |

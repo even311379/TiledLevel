@@ -5,7 +5,7 @@ Let the preview item follow your cursor. Must activate preview item beforehand. 
 
 > (V2.0.1) Will add new parameter to specify the player index in next update. Now, it will move to cursor position from the first player.
 
-<img src="../../_media/GametimeAPI/MovePreviewItemToCursor.png" alt="drawing" width="50%"/>
+<img src="https://raw.githubusercontent.com/even311379/TiledLevel/main/_media/GametimeAPI/MovePreviewItemToCursor.png" alt="drawing" width="50%"/>
 
 ### > Input
 |             |         |       |
