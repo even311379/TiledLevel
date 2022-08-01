@@ -1,9 +1,9 @@
 # Tiled level in Gametime - API
 
 ### Init
-* [InitializeGametimeSystem](API/InitializeGametimeSystem)
-* [InitializeGametimeSystemFromData](Gametime/API/InitializeGametimeSystemFromData)
-* [ChangeItemSet](Gametime/API/ChangeItemSet)
+* [InitializeGametimeSystem](./Gametime/API/InitializeGametimeSystem)
+* [InitializeGametimeSystemFromData](./Gametime/API/InitializeGametimeSystemFromData)
+* [ChangeItemSet](./Gametime/API/ChangeItemSet)
 
 ### Preview
 * [ActivatePreviewItem](Gametime/API/ActivatePreviewItem)
