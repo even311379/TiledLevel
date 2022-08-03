@@ -51,7 +51,7 @@ Now, the linkage between the **TS_House** and **DT_HouseItemInfo** is establishe
 ![image](../_media/GametimeQuickStart/DataInDT.png)
 With these setup, you can just query the row data by the *ItemID* everywhere you want. After filling the custom info for each item, the setup at this stage is completed.
 
-> Known crash issue (V2.0.0): Modify the Structure and go back to its associated opened Item Set will crash the editor for now. You should close the Item Set before modify the Struct.
+> Known crash issue: Modify the Structure and go back to its associated opened Item Set will crash the editor for now. You should close the Item Set before modify the Struct.
 
 <br/>
 
@@ -95,6 +95,3 @@ In level blueprint (or anywhere you like) call *Initialize Gametime System* and 
 
 ### Done!
 Now hit play and have fun!
-
-> Known issues: Packaging this game will fail by current version (2.0.0)! I've fixed in the developing branch, but some other minor issues still exist. I will submit a thorough fix ASAP.
-
