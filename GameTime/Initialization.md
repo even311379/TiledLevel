@@ -14,7 +14,7 @@ To use the gametime support features, you should first create your system which 
 
 ### Initialization
 
-There are two nodes handling initialization: *InitializeGametimeSystem* and *InitializeGametimeSystemFromData*. You can call them any place you want, but I suggest you put them inside Level Blueprint to easier get access to reference to existing levels.
+There are two nodes handling initialization: *InitializeGametimeSystem* and *InitializeGametimeSystemFromData*. You can call them any place you want, but I suggest you put them inside Level Blueprint to easily get access to reference to existing levels.
 ![image](../_media/Gametime/InitializeTLGS.png)
 - Startup Item Set<br/>
 	If the tile size of the input **item set** differs from the system, the initialize will fail.

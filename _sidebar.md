@@ -15,8 +15,9 @@
   * [Quick Start](./GameTime/QuickStart)
   * [Initialization](./GameTime/Initialization)
   * [Custom data binding](./GameTime/CustomData)
-  * [API](./GameTime/API)
   * [Save & Load](./GameTime/SaveLoad)
+  * [Packaging Issue](./GameTime/Packaging)
+  * [API](./GameTime/API)
   * [Using with C++](./GameTime/C++)
   * [Restriction Area](./GameTime/RestrictionArea)
 
