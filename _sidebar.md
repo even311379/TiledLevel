@@ -18,7 +18,7 @@
   * [Save & Load](./GameTime/SaveLoad)
   * [Packaging Issue](./GameTime/Packaging)
   * [API](./GameTime/API)
-  * [Using with C++](./GameTime/C++)
-  * [Restriction Area](./GameTime/RestrictionArea)
+  <!-- * [Using with C++](./GameTime/C++) -->
+  <!-- * [Restriction Area](./GameTime/RestrictionArea) -->
 
 * [Patch Notes](./PatchNotes)
