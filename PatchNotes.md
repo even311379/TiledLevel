@@ -6,6 +6,16 @@ Candidate New Features:
 * Wave Function Collapse
 ---
 
+### V2.0.2 (2022.8.11)
+- Fix crashes when calling **InitializeGametimeSystemFromData** while preview item is active.
+- Fix preview item material display error. Sometimes, it displayed "Can Not Build" while it is not the case.
+- Fix wrong preview location. After rotation and change preview item, the position may go wrong.
+- Modify: Remove inner faces for restriction item.
+- Modify: New material for restriction item that you can show only edges of each box now.
+
+### V2.0.1 (2022.7.29)
+- fix packaging error
+
 ### v2.0.0 (2022.7.23)
 **New features (game time support)**
 - TiledLevelGametimeSystem

@@ -5,9 +5,9 @@ This system contains these features:
 
 1. Can choose what to build
 2. Show the preview item, and move it in front of the character
-3. Allow play to rotate the preview item
-4. Automatic check if resources are enough to build that item when trying to build.
-5. Automatic calculate resources cost when item is built.
+3. Allow player to rotate the preview item
+4. Check if resources are enough to build that item when trying to build.
+5. Process resources cost when item is built.
 
 ---
 
