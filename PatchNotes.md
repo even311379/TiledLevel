@@ -5,6 +5,13 @@ Candidate New Features:
 
 * Wave Function Collapse
 ---
+### V2.1.0 (2022.8.28)
+- New feature: Add **template item**, now you can use existing tiled level asset as template during editing.
+- New: Add preview thumbnail for tiled level asset
+- New: Add target item picker for **Restriction item**
+- New: Selection mode supported multiple floors now.
+- Modify: Improve the assessment of selection range for **selection mode** 
+
 
 ### V2.0.2 (2022.8.11)
 - Fix crashes when calling **InitializeGametimeSystemFromData** while preview item is active.

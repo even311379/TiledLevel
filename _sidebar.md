@@ -10,6 +10,7 @@
   * [Tiled Item Set](./Guide/TiledItemSet)
   * [Tiled Level Edit Tools](./Guide/TiledLevelEditTools)
   * [Work Flow](./Guide/WorkFlow)
+  <!-- * [Use Templates](./Guide/UseTemplates) -->
 
 * V2.0 Game time support
   * [Quick Start](./GameTime/QuickStart)
