@@ -3,8 +3,16 @@
 
 Candidate New Features:
 
+* Network support
 * Wave Function Collapse
 ---
+
+### V2.1.1 (2022.10.08)
+- Fix additional position offset when initialize tiled level gametime with existing levels included.
+- Fix AI navigation geometry disappeared after edit tiled levels on maps. (This issue still occurs on gametime support...)
+- New: Add right click action **merge and replace here**, which will replace previous tiled level with a revertible static mesh actor.
+
+
 ### V2.1.0 (2022.8.28)
 - New feature: Add **template item**, now you can use existing tiled level asset as template during editing.
 - New: Add preview thumbnail for tiled level asset
