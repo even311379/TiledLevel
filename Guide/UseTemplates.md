@@ -1,6 +1,6 @@
 # Using Templates
 
-### V2.1
+(New feature start from V2.1)
 
 Now you can reuse level assets as template.
 Create a special item : template item. Set the source asset as the one you want to use as template.

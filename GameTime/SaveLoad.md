@@ -6,4 +6,3 @@ Here's a sample for it's setup:
 ![image](../_media/Gametime/SaveLoad01.png)
 ![image](../_media/Gametime/SaveLoad02.png)
 
-> (v2.0.1) Call **InitializeGametimeSystemFromData** while is previewing item to build will crash the editor. Fixed was made in dev branch..., will update it soon.

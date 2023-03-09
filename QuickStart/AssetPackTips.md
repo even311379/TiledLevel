@@ -2,13 +2,15 @@
 
 > Tips for easier integrate with modular asset packs
 
-**Video tutorial coming soon**
-
 - Use "Fantacy Kingdom" asset pack from Synty Studios as example
 
 ## 1. Choose a feasible tile size
 
 When using a third-party pack, the first step is to find out a feasible tile size value. Open its demonstration map, and check out the size of major structure meshes. In this sample, the basic unit is designed in 250 x 250 x 250, however, it also contains half-sized units. You can consider set tile size as half and set step size as 2.
+
+TODO: Add lots of reference image?
+
+
 
 ## 2. Choose assets to use
 

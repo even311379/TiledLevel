@@ -3,9 +3,21 @@
 
 Candidate New Features:
 
-* Network support
-* Wave Function Collapse
+* V3.0 Auto Paint (by wave function collapse algorithm)
+
 ---
+
+### v2.2.0 (2023.2.22)
+- Improved better undo-redo steps during painting
+- Improved asset preview thumbnail
+- Improved: show approxmate size of mesh in tiled item set editor
+- Fixed AI navigation issues perfectly (both in editor and gametime)
+- Fixed selection tool crashes
+
+
+### V2.1.2 (2022.10.16)
+- Fix crash issue when source mesh/blueprint of tiled item was deleted.
+
 
 ### V2.1.1 (2022.10.08)
 - Fix additional position offset when initialize tiled level gametime with existing levels included.

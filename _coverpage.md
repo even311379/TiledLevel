@@ -2,7 +2,7 @@
 
 ![logo](_media/logo.png)
 
-# Tiled Level <small>v2.1.0</small>
+# Tiled Level <small>v2.2.0</small>
 
 > A Unreal Engine plugin that allows you paint 3D modular assets.
 > And tiled-based building system (V2.0)
