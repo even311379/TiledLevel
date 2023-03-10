@@ -20,7 +20,7 @@
   * [Packaging Issue](./GameTime/Packaging)
   * [AI Navigation](./GameTime/RuntimeAINavigation)
   * [API](./GameTime/API)
+  * [Restriction Area](./GameTime/RestrictionArea)
   <!-- * [Using with C++](./GameTime/C++) -->
-  <!-- * [Restriction Area](./GameTime/RestrictionArea) -->
 
 * [Patch Notes](./PatchNotes)
