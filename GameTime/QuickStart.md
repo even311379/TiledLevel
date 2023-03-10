@@ -11,7 +11,7 @@ This system contains these features:
 
 ---
 
-**video tutorial (no text explanation for now)**
+**video tutorial (no text explanation)**
 [![Cover](../_media/GametimeQuickStart/VideoCover.png)](https://youtu.be/fxu1VnVb-U0)
 
 ---
