@@ -16,11 +16,11 @@
   * [Quick Start](./GameTime/QuickStart)
   * [Initialization](./GameTime/Initialization)
   * [Custom data binding](./GameTime/CustomData)
-  * [Save & Load 123](./GameTime/SaveLoad)
+  * [Save & Load](./GameTime/SaveLoad)
   * [Packaging Issue](./GameTime/Packaging)
   * [AI Navigation](./GameTime/RuntimeAINavigation)
   * [API](./GameTime/API)
-  * [Restriction Area](./GameTime/RestrictionArea)
+  <!-- * [Restriction Area](./GameTime/RestrictionArea) -->
   <!-- * [Using with C++](./GameTime/C++) -->
 
 * [Patch Notes](./PatchNotes)
