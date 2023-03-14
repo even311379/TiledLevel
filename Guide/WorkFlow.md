@@ -10,7 +10,7 @@ You can reuse existing tiled level asset to new tiled level asset. Assuming you 
 2. Create a spceial item inside the tiled item set, and set the template.
 3. Paint it where you want.
 
-[youtube video](https://www.youtube.com/embed/X41oPId1LCo ':include :type=iframe width=560px height=315px')
+[youtube video](https://www.youtube.com/embed/X41oPId1LCo ':include :type=iframe width=100% height=430px')
 
 
 
