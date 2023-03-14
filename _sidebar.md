@@ -10,17 +10,16 @@
   * [Tiled Item Set](./Guide/TiledItemSet)
   * [Tiled Level Edit Tools](./Guide/TiledLevelEditTools)
   * [Work Flow](./Guide/WorkFlow)
-  <!-- * [Use Templates](./Guide/UseTemplates) -->
 
 * V2.0 Game time support
   * [Quick Start](./GameTime/QuickStart)
   * [Initialization](./GameTime/Initialization)
   * [Custom data binding](./GameTime/CustomData)
   * [Save & Load](./GameTime/SaveLoad)
+  <!-- * [Restriction Area](./GameTime/RestrictionArea) -->
   * [Packaging Issue](./GameTime/Packaging)
   * [AI Navigation](./GameTime/RuntimeAINavigation)
   * [API](./GameTime/API)
-  <!-- * [Restriction Area](./GameTime/RestrictionArea) -->
   <!-- * [Using with C++](./GameTime/C++) -->
 
 * [Patch Notes](./PatchNotes)

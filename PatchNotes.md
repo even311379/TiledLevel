@@ -10,7 +10,7 @@ Candidate New Features:
 ### v2.2.0 (2023.2.22)
 - Improved better undo-redo steps during painting
 - Improved asset preview thumbnail
-- Improved: show approxmate size of mesh in tiled item set editor
+- Improved: show approximate size of mesh in tiled item set editor
 - Fixed AI navigation issues perfectly (both in editor and gametime)
 - Fixed selection tool crashes
 
@@ -97,7 +97,7 @@ Candidate New Features:
 ### V1.1 (2022.1.10)
 
 - [**Step Size Control**](Guide/TiledLevelEditTools?id=step-control)
-- Add some missing tooltips.
+- Add some missing tool tips.
 - UE5.0 is supported.
 
   > So far, I can only provide the source code of this version. If you need it now, send me a screenshot of the purchase receipt (or any other proof), and I'll give you a download link to this version.

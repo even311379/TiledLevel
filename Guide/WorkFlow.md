@@ -1,18 +1,18 @@
 # Workflow
 
-```mermaid
-flowchart TD;
+Here are some additional workflows that can help your level design in this plugin.
 
-    subgraph    
-    TS[Tiled Item Set] --> |Create Tiled Level </br> Asset from this| TL[Tiled Level Asset];
-    TS --> |Drag to Level| TA[Tiled Level Actor];
-    TA --> |Save To Asset| TL;
-    TL o--o |Edit|TL;
-    TL --> |Drag to Level| TA;
-    TA o--o |Edit|TA;
-    end;
-    TA --> |Break| N{{Normal Level}};
-```
+### Use Template item (v2.1)
+
+You can reuse existing tiled level asset to new tiled level asset. Assuming you want to reuse a house in this manner, here's the steps to achieve it:
+
+1. Create a tiled level that you want to reuse.
+2. Create a spceial item inside the tiled item set, and set the template.
+3. Paint it where you want.
+
+[youtube video](https://www.youtube.com/embed/X41oPId1LCo ':include :type=iframe width=560px height=315px')
+
+
 
 ### Break Tiled level
 
@@ -34,3 +34,10 @@ There are three places where you can execute this command:
 So far, it doesn't support conversion from instanced static mesh components or procedural mesh components in your actor-baseed tiled item.
 
 ![Demo](../_media/DemoGIF/Merge.gif)
+
+
+### Merge and Replace (v2.1)
+
+You can merge your tiled level actor in your map to a special "revertible" static mesh actor. 
+
+Right click on your tiled level actor and choose "merge and replace". A dialog will pop up to ask for a new file name for the merged static mesh asset. Then, a "revertible" actor will replace the original tiled level actor. You can revert it to tiled level actor for editing if you want.
