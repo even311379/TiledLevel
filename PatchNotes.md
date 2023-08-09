@@ -1,18 +1,33 @@
 # Patch Note
 ---
 
-Candidate New Features:
+### Upcoming 
 
-* V3.0 Auto Paint (by wave function collapse algorithm)
+- Fullfill 100% functionality for autopaint:
+  - Random seed
+  - Add support for other placed type
+  - Add support for fill tool and eyedropper
+  - game time support with auto paint
+
+- rewrite selection tool
+- add vertical edit mode
+
+
 
 ---
+### v3.0.0 (2023.7.28)
+Add auto paint support
+- New asset type (auto paint rule) and its specific editor
+- New paint mode to apply auto paint
+(in total, )
+
 
 ### v2.2.0 (2023.2.22)
 - Improved better undo-redo steps during painting
 - Improved asset preview thumbnail
 - Improved: show approximate size of mesh in tiled item set editor
 - Fixed AI navigation issues perfectly (both in editor and gametime)
-- Fixed selection tool crashes
+- Fixed selection tool crashes 
 
 
 ### V2.1.2 (2022.10.16)
