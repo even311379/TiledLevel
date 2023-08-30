@@ -25,7 +25,6 @@
 
 * V3.0 Auto paint
   * [Rule Editor](./AutoPaint/RuleEditor)
-  * [Adjacency Rule](./AutoPaint/Adjacency)
-  * [Spawn Rule](./AutoPaint/SpawnRule)
+  * [Rule Detail](./AutoPaint/RuleDetail)
 
 * [Patch Notes](./PatchNotes)

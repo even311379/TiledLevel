@@ -2,7 +2,7 @@
 
 ![logo](_media/logo.png)
 
-# Tiled Level <small>v3.0.0</small>
+# Tiled Level <small>V3</small>
 
 > Unreal Engine plugin allows you paint 3D assets.
 

@@ -4,10 +4,6 @@
 
  Tiled level plugin is a level design tool in unreal engine that allows you to paint modular assets directly. Setup tiled item set from your static mesh or actor, and you are ready to paint these 3D assets like a 2D tile map. Makes level design from modular assets way easier and intuitive and prototypes your design idea way faster.
 
- <!-- Watch this timelapse deom for what it is for.  -->
-
-<!-- [![Cover](_media/HouseDemoVideoCover.png)](https://youtu.be/9-TQblRa5Lo) -->
-
 # New feature: Auto Paint
 
 In many cases, modular assets are designed with some particular adjcency rules in mind. Some assets should just be left of some assets. If you can define these adjacency rules, then, maybe we can just draw a region on your map we want it to be land, building, forest, and etc, then let the adjacency rules handle the rest of it. That is the gist of this new feature.
@@ -18,9 +14,6 @@ Here's a demo to compare different way to assemble modular assets and quick glan
 
 
 These similar functionality already exist in a tool 2D level design tool called [LDTK](https://ldtk.io/), and I just port it to tiled level.
-
-
-
 
 ## When To Use
 * Level design for tiled based game
