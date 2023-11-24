@@ -23,6 +23,7 @@ Feature improvements
 (When ever drag a tiled level asset, tiled item set, or auto paint rule to the map, the created tiled level actor will use a duplicated version of these source asset.)
 - Expose all instance related properties to tiled item. Now, you can easily tweak collision, lighting, shadows, navigation, and etc properties for each tiled item.
 - Change size of tiled level asset or tiled level actors will remove out of bound instances now.
+
 Bugs fixing
 - Fix eraser not working in instaced tiled level actors
 - Fix blueprint based tiled items will not properly duplicate when tiled level actor is duplicated.
