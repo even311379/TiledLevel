@@ -15,6 +15,21 @@
 
 
 ---
+### v3.1.0 (2023.11.22)
+Feature improvements
+- Auto paint supports all placed type now.
+- change XZY mirror to duplication mode, which is more intuitive and useful.
+- break the dependencies for tiled level actors on map and its assosiated tiled level item set and tiled level asset.<br/>
+    when ever drag a tiled level asset, tiled item set, or auto paint rule to the map, the created tiled level actor will use a duplicated version of these source asset.
+- Expose all instance related properties to tiled item. Now, you can easily tweak collision, lighting, shadows, navigation, and etc properties for each tiled item.
+- Change size of tiled level asset or tiled level actors will remove out of bound instances now.
+Bugs fixing
+- Fix eraser not working in instaced tiled level actors
+- Fix blueprint based tiled items will not properly duplicate when tiled level actor is duplicated.
+- and ...
+
+
+
 ### v3.0.0 (2023.7.28)
 Add auto paint support
 - New asset type (auto paint rule) and its specific editor
